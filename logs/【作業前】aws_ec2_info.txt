@@ -1,0 +1,22 @@
+=== AWS EC2メタデータ情報 ===
+Instance ID: 
+Instance Type: 
+AMI ID: 
+Availability Zone: 
+Region: 
+Local IPv4: 
+Public IPv4: 
+Security Groups: 
+IAM Role: 
+
+=== インスタンス詳細情報 ===
+MAC Address: 
+Launch Time: 
+Hostname: 
+
+=== AWS CLI情報 ===
+AWS CLI がインストールされていません
+=== CloudWatch Agent ===
+Status: Inactive or Not Installed
+=== Systems Manager Agent ===
+Status: Inactive or Not Installed

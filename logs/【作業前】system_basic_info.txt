@@ -1,0 +1,167 @@
+=== システム基本情報 ===
+収集日時: Thu Jul 31 06:44:12 AM UTC 2025
+ホスト名: ip-172-31-14-154.ap-northeast-1.compute.internal
+FQDN: ip-172-31-14-154.ap-northeast-1.compute.internal
+稼働時間:  06:44:12 up 27 min,  1 user,  load average: 0.06, 0.34, 0.25
+現在のユーザー: root
+作業ディレクトリ: /home/ec2-user
+
+=== OS情報 ===
+OS: Red Hat Enterprise Linux release 9.6 (Plow)
+カーネル: 5.14.0-570.22.1.el9_6.x86_64
+アーキテクチャ: x86_64
+カーネルコマンドライン: BOOT_IMAGE=(hd0,gpt3)/vmlinuz-5.14.0-570.22.1.el9_6.x86_64 root=UUID=b838f0f7-0240-46ea-bf53-c811361cbe43 console=tty0 console=ttyS0,115200n8 net.ifnames=0 nvme_core.io_timeout=4294967295 crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M
+
+=== CPU情報 ===
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        46 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               2
+On-line CPU(s) list:                  0,1
+Vendor ID:                            GenuineIntel
+BIOS Vendor ID:                       Intel(R) Corporation
+Model name:                           Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz
+BIOS Model name:                      Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz
+CPU family:                           6
+Model:                                85
+Thread(s) per core:                   2
+Core(s) per socket:                   1
+Socket(s):                            1
+Stepping:                             7
+BogoMIPS:                             4999.99
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+Hypervisor vendor:                    KVM
+Virtualization type:                  full
+L1d cache:                            32 KiB (1 instance)
+L1i cache:                            32 KiB (1 instance)
+L2 cache:                             1 MiB (1 instance)
+L3 cache:                             35.8 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0,1
+Vulnerability Gather data sampling:   Unknown: Dependent on hypervisor status
+Vulnerability Itlb multihit:          KVM: Mitigation: VMX unsupported
+Vulnerability L1tf:                   Mitigation; PTE Inversion
+Vulnerability Mds:                    Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Meltdown:               Mitigation; PTI
+Vulnerability Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Vulnerable
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Vulnerable
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+CPU使用率 (1分間平均):
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 96.9 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 
+
+=== メモリ情報 ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.4Gi       665Mi       3.7Gi       8.0Mi       3.3Gi       6.7Gi
+Swap:             0B          0B          0B
+
+詳細メモリ情報:
+MemTotal:        7741528 kB
+MemFree:         3929412 kB
+MemAvailable:    7060260 kB
+Buffers:            2224 kB
+Cached:          3258208 kB
+SwapCached:            0 kB
+Active:           232144 kB
+Inactive:        3129772 kB
+Active(anon):     110196 kB
+Inactive(anon):        0 kB
+Active(file):     121948 kB
+Inactive(file):  3129772 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:                 8 kB
+Writeback:             0 kB
+
+=== ストレージ情報 ===
+ディスク使用量:
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        4.0M     0  4.0M   0% /dev
+tmpfs           3.7G     0  3.7G   0% /dev/shm
+tmpfs           1.5G  8.5M  1.5G   1% /run
+efivarfs        128K  3.6K  120K   3% /sys/firmware/efi/efivars
+/dev/nvme0n1p4   19G  3.8G   16G  20% /
+/dev/nvme0n1p3  960M  291M  670M  31% /boot
+/dev/nvme0n1p2  200M  7.1M  193M   4% /boot/efi
+tmpfs           757M     0  757M   0% /run/user/1000
+
+ブロックデバイス:
+NAME        FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+nvme0n1                                                                            
+├─nvme0n1p1                                                                        
+├─nvme0n1p2 vfat   FAT16       7B77-95E7                             192.7M     4% /boot/efi
+├─nvme0n1p3 xfs          boot  27bfefa8-69e7-41ce-a184-c487d56cac49  669.8M    30% /boot
+└─nvme0n1p4 xfs          root  b838f0f7-0240-46ea-bf53-c811361cbe43     15G    20% /
+
+マウント情報:
+proc            on  /proc                                                type  proc        (rw,nosuid,nodev,noexec,relatime)
+sysfs           on  /sys                                                 type  sysfs       (rw,nosuid,nodev,noexec,relatime,seclabel)
+devtmpfs        on  /dev                                                 type  devtmpfs    (rw,nosuid,seclabel,size=4096k,nr_inodes=956302,mode=755,inode64)
+securityfs      on  /sys/kernel/security                                 type  securityfs  (rw,nosuid,nodev,noexec,relatime)
+tmpfs           on  /dev/shm                                             type  tmpfs       (rw,nosuid,nodev,seclabel,inode64)
+devpts          on  /dev/pts                                             type  devpts      (rw,nosuid,noexec,relatime,seclabel,gid=5,mode=620,ptmxmode=000)
+tmpfs           on  /run                                                 type  tmpfs       (rw,nosuid,nodev,seclabel,size=1548308k,nr_inodes=819200,mode=755,inode64)
+cgroup2         on  /sys/fs/cgroup                                       type  cgroup2     (rw,nosuid,nodev,noexec,relatime,seclabel,nsdelegate,memory_recursiveprot)
+pstore          on  /sys/fs/pstore                                       type  pstore      (rw,nosuid,nodev,noexec,relatime,seclabel)
+efivarfs        on  /sys/firmware/efi/efivars                            type  efivarfs    (rw,nosuid,nodev,noexec,relatime)
+bpf             on  /sys/fs/bpf                                          type  bpf         (rw,nosuid,nodev,noexec,relatime,mode=700)
+/dev/nvme0n1p4  on  /                                                    type  xfs         (rw,relatime,seclabel,attr2,inode64,logbufs=8,logbsize=32k,noquota)
+selinuxfs       on  /sys/fs/selinux                                      type  selinuxfs   (rw,nosuid,noexec,relatime)
+systemd-1       on  /proc/sys/fs/binfmt_misc                             type  autofs      (rw,relatime,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=19690)
+mqueue          on  /dev/mqueue                                          type  mqueue      (rw,nosuid,nodev,noexec,relatime,seclabel)
+debugfs         on  /sys/kernel/debug                                    type  debugfs     (rw,nosuid,nodev,noexec,relatime,seclabel)
+hugetlbfs       on  /dev/hugepages                                       type  hugetlbfs   (rw,relatime,seclabel,pagesize=2M)
+tracefs         on  /sys/kernel/tracing                                  type  tracefs     (rw,nosuid,nodev,noexec,relatime,seclabel)
+fusectl         on  /sys/fs/fuse/connections                             type  fusectl     (rw,nosuid,nodev,noexec,relatime)
+configfs        on  /sys/kernel/config                                   type  configfs    (rw,nosuid,nodev,noexec,relatime)
+none            on  /run/credentials/systemd-sysctl.service              type  ramfs       (ro,nosuid,nodev,noexec,relatime,seclabel,mode=700)
+none            on  /run/credentials/systemd-sysusers.service            type  ramfs       (ro,nosuid,nodev,noexec,relatime,seclabel,mode=700)
+none            on  /run/credentials/systemd-tmpfiles-setup-dev.service  type  ramfs       (ro,nosuid,nodev,noexec,relatime,seclabel,mode=700)
+/dev/nvme0n1p3  on  /boot                                                type  xfs         (rw,relatime,seclabel,attr2,inode64,logbufs=8,logbsize=32k,noquota)
+/dev/nvme0n1p2  on  /boot/efi                                            type  vfat        (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=winnt,errors=remount-ro)
+none            on  /run/credentials/systemd-tmpfiles-setup.service      type  ramfs       (ro,nosuid,nodev,noexec,relatime,seclabel,mode=700)
+tmpfs           on  /run/user/1000                                       type  tmpfs       (rw,nosuid,nodev,relatime,seclabel,size=774152k,nr_inodes=193538,mode=700,uid=1000,gid=1000,inode64)
+
+=== ネットワーク情報 ===
+ネットワークインターフェース:
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP group default qlen 1000
+    link/ether 0a:b3:33:94:d7:67 brd ff:ff:ff:ff:ff:ff
+    altname enp0s5
+    altname ens5
+    inet 172.31.14.154/20 brd 172.31.15.255 scope global dynamic noprefixroute eth0
+       valid_lft 1943sec preferred_lft 1943sec
+    inet6 fe80::8b3:33ff:fe94:d767/64 scope link 
+       valid_lft forever preferred_lft forever
+
+ルーティングテーブル:
+default via 172.31.0.1 dev eth0 proto dhcp src 172.31.14.154 metric 100 
+172.31.0.0/20 dev eth0 proto kernel scope link src 172.31.14.154 metric 100 
+
+DNS設定:
+# Generated by NetworkManager
+search ap-northeast-1.compute.internal
+nameserver 172.31.0.2
+
+ネットワーク統計:
+Netid State  Recv-Q Send-Q Local Address:Port Peer Address:Port
+udp   UNCONN 0      0          127.0.0.1:323       0.0.0.0:*   
+udp   UNCONN 0      0              [::1]:323          [::]:*   
+tcp   LISTEN 0      128          0.0.0.0:22        0.0.0.0:*   
+tcp   LISTEN 0      128             [::]:22           [::]:*   
